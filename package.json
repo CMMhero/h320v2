@@ -1,0 +1,40 @@
+{
+  "name": "hero_two",
+  "version": "2.17.5",
+  "description": "Hero Two",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "CMMhero",
+  "license": "ISC",
+  "dependencies": {
+    "animequote": "^1.1.1",
+    "axios": "^0.21.1",
+    "commando-provider-mongo": "^1.1.1",
+    "discord.js": "^12.4.1",
+    "discord.js-commando": "git+https://github.com/discordjs/commando.git",
+    "figlet": "^1.5.0",
+    "imdb-api": "^4.3.0",
+    "kitsu.js": "^2.0.0",
+    "minecraft-server-util": "^3.4.2",
+    "module-alias": "^2.2.2",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.3",
+    "node-fetch": "^2.6.1",
+    "random-puppy": "^1.1.0",
+    "reconlx": "^1.2.41",
+    "something-random-on-discord": "0.0.2",
+    "urban": "^0.3.2",
+    "weather-js": "^2.0.0",
+    "wokcommands": "^1.3.1"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@schemas": "./schemas",
+    "@util": "./util",
+    "@features": "./features/features",
+    "@commands": "./commands/command"
+  }
+}
