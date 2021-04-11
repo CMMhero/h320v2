@@ -13,6 +13,7 @@ Initial Setup
 
 2. Install all the modules
 	```
+	cd h320v2
 	npm i
 	```
 
